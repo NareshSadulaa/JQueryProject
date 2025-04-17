@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, sans-serif;
+    transition: background 0.5s, color 0.5s;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  15px;
+    background: #333;
+    color: white;
+}
+
+#theme-toggle{
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.container{
+    display: flex;
+}
+
+.sidebar{
+    width: 250px;
+    background: #444;
+    color: white;
+    padding: 15px;
+    height: 100vh;
+}
+
+.meun-item{
+    cursor: pointer;
+    padding: 10px;
+    transition: background 0.3s;
+}
+
+.meun-item:hover{
+    background: #555;
+}
+
+.content{
+    flex: 1;
+    padding: 20px;
+}
+
+.cards{
+    display: flex;
+    gap:20px;
+}
+
+.card{
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.card:hover{
+ transform: scale(1.1);
+}
+
+#datalist{
+    margin-top: 20px;
+    padding: 0;
+}
+
+#data-list li{
+    list-style: none;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+}
+
+.dark-mode{
+    background: #121212;
+    color: white;
+}

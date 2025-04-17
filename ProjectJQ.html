@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="scripts.js" defer></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>Dashborad</h1>
+
+        <button id="theme-toggle"> Toggle Theme</button>
+    </nav>
+    </nav>
+
+    <div class="container">
+        <div class="sidebar">
+            <h2>Menu</h2>
+            <input type="text" id="search" placeholder="Search...">
+            <ul id="menu">
+                <li class="menu-item">Home</li>
+                <li class="menu-item">Tasks</li>
+                <li class="menu-item">Notification</li>
+                <li class="menu-item">settings</li>
+            </ul>
+
+        </div>
+
+        <div class="content">
+            <h2>Welcome <span class="username">User</span></h2>
+
+            <div class="cards">
+                <div class="card" id="card1">Analytics</div>
+                <div class="card" id="card1">Calendar</div>
+                <div class="card" id="card1">Messages</div>
+            </div>
+
+            <button id="load-data">load Data</button>
+
+            <ul id="data-list"></ul>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
